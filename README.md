@@ -8,3 +8,4 @@ This is a site to promote tourism in the often overlooked region of Hokkaido Jap
 
 ### Wireframes
 [wireframes](assets/images/hokkaido-tours-wireframes.png)
+
