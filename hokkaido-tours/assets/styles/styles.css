@@ -28,3 +28,11 @@
     object-fit: cover;
     height: 200px; /* Adjust the height as needed */
 }
+
+.fa-canadian-maple-leaf {
+  color: rgb(190, 62, 23);
+}
+
+.navbar-brand {
+  color: rgb(190, 62, 23);
+}
