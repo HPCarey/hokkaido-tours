@@ -41,3 +41,14 @@
 .shoping-cart-icon {
   margin-right: 3%;
 }
+
+/* Add a transition effect */
+.btn-info {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+.btn-info:hover {
+  background-color: #5bc0de; 
+  color: #fff; 
+  border: #fff;
+}
