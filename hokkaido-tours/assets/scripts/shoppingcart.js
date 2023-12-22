@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Add the price to the total sum
             totalSum += item.price;
+            
         });
 
         // Display the total sum
