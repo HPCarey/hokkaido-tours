@@ -35,4 +35,9 @@
 
 .navbar-brand {
   color: rgb(190, 62, 23);
+  margin-left: 6%;
+}
+
+.shoping-cart-icon {
+  margin-right: 3%;
 }
