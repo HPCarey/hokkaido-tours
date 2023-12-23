@@ -94,7 +94,7 @@ textarea.form-control {
 
 .banner {
   position: relative;
-  height: 400px; /* Adjust the height as needed */
+  height: 80vh; /* Adjust the height as needed */
   width: 100%;
   color: #d7c4c6;
 }
@@ -119,4 +119,18 @@ textarea.form-control {
 
 .validation-heading {
   color: #d7c4c6
+}
+
+.carousel-item {
+  max-height: 55vh; /* Adjust the maximum height as per your design */
+  object-fit: cover; /* This ensures that the image covers the entire container while maintaining its aspect ratio */
+}
+
+/* If you want to center the images vertically */
+.carousel-item img {
+  margin: auto;
+  display: block;
+  width: 100%; /* Make the image fill its container */
+  height: 100%; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensure the entire image is visible, even if it's cropped
 }
