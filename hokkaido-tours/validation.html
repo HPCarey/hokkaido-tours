@@ -14,7 +14,7 @@
     <title>Hokkaido</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -31,7 +31,7 @@
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="region.html">By Region</a>
+                            <a class="nav-link" href="region.html">By Region</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="hiking.html">Hiking</a>
@@ -64,17 +64,24 @@
             <div id="sum-prices" class="text-start mt-3">Total: $0.00</div>
         </div>
     </div>
-    <main class="container mt-5">
+    <main class="container wide-image mt-2">
         <!-- Image Banner Section -->
         <div class="banner" style="background-image: url('assets/images/wildlifewinter.jpg');">
-          <div class="overlay"></div>
-          <div class="text-container">
-            <h1 class="display-4 validation-heading">Thank You!</h1>
-            <p class="lead validation-heading">Your message has been submitted successfully.</p>
-            <p class="validation-heading">We appreciate your interest and will get in touch with you soon to respond to your query.</p>
-          </div>
+            <div class="overlay"></div>
+            <div class="text-container">
+                <h1 class="display-4 validation-heading">Thank You!</h1>
+                <p class="lead validation-heading">Your message has been submitted successfully.</p>
+                <p class="validation-heading">We appreciate your interest and will get in touch with you soon to respond
+                    to your query.</p>
+            </div>
         </div>
-      </main>
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-light text-dark text-center py-3 mt-auto">
+        <div class="container">
+            <p>&copy; 2023 Hokkaido Tours Copyright</p>
+        </div>
+    </footer>
     <!-- Separate Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

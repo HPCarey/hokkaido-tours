@@ -15,52 +15,55 @@
   <title>Hokkaido</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Hokkaido <br> Tours <i class="fa-brands fa-canadian-maple-leaf"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="region.html">By Region</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="hiking.html">Hiking</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="tours.html">Tours</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto shoping-cart-icon">
-                    <li class="nav-item sum-items">
-                        <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-cart-shopping"></i></a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Hokkaido <br> Tours <i
+            class="fa-brands fa-canadian-maple-leaf"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="region.html">By Region</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="hiking.html">Hiking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="tours.html">Tours</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto shoping-cart-icon">
+            <li class="nav-item sum-items">
+              <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample"><i class="fas fa-cart-shopping"></i></a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Shopping Cart</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Shopping Cart</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-        <!-- Shopping cart content goes here -->
-        <p class="text-start">No items in cart</p>
-        <div id="sum-prices" class="text-start mt-3">Total: $0.00</div>
+      <!-- Shopping cart content goes here -->
+      <p class="text-start">No items in cart</p>
+      <div id="sum-prices" class="text-start mt-3">Total: $0.00</div>
     </div>
-</div>
+  </div>
   <section id="tours" class="bg-light mt-5">
     <div class="container-lg">
       <div class="text-center">
@@ -107,6 +110,12 @@
       </div>
     </div>
   </section>
+  <!-- Footer Section -->
+  <footer class="bg-light text-dark text-center py-3 mt-auto">
+    <div class="container">
+      <p>&copy; 2023 Hokkaido Tours Copyright</p>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>
